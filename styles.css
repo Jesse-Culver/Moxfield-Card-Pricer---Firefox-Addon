@@ -1,0 +1,48 @@
+.moxfield-card-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.moxfield-card-price {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #4ade80;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: fit-content;
+}
+
+.moxfield-card-price:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #4ade80;
+}
+
+.moxfield-card-link {
+  display: inline-block;
+  padding: 3px 6px;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 3px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.moxfield-card-link:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #cbd5e1;
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Moxfield Card Pricer",
+  "version": "1.0",
+  "description": "Displays card prices under card images in Moxfield's visual spoiler view. Also adds Scryfall and EDHRec links for the card.",
+  "permissions": [
+    "https://moxfield.com/*",
+    "https://api.scryfall.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://moxfield.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon.png",
+    "96": "icon.png"
+  }
+}
